@@ -1,0 +1,89 @@
+/**** Importation de la police "Lato" ****/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/**** body ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: "Lato", sans-serif;
+}
+
+/**** ul social__media__container ****/
+
+.social__media__container {
+    position: fixed;
+    top: 50%;
+    left: calc(100% - 60px);
+    padding: 0;
+    transform: translateY(-50%);
+    min-width: 250px;
+}
+
+.social__media {
+    align-items: center;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social__media:hover {
+    transform: translateX(calc(-100% + 60px));
+}
+
+.social__media.blog {
+    background-color: #e17b77;
+}
+
+.social__media.facebook {
+    background-color: #3b5998;
+}
+
+.social__media.twitter {
+    background-color: #070707;
+}
+
+.social__media.github {
+    background-color: #333333;
+}
+
+.social__media.linkedin {
+    background-color: #007bb6;
+}
+
+.social__media i {
+    color: #fffffe;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    width: 60px;
+}
+
+.social__media a {
+    color: #fffffe;
+    padding: 0 10px;
+    font-weight: 600;
+}
