@@ -1,5 +1,7 @@
 ## BOUTONS RESEAUX SOCIAUX
 
+![Design preview for the project](./img/banner.png)
+
 ## Le challenge
 
 Création de boutons réseaux sociaux en HTML5 et CSS3 avec un effet au survol de la souris.
